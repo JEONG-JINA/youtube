@@ -14,10 +14,10 @@ export default function Header() {
 	};
 
 	return (
-		<header className='w-full flex p-4 box-border text-2xl border-b border-zinc-600 mb-4 justify-between items-center'>
+		<header className='w-full flex p-4 box-border text-2xl border-b border-zinc-200 justify-between items-center'>
 			<Link to='/' className='flex items-center gap-2'>
 				<FaYoutube className='text-red-500' />
-				<h1 className='text-red-500 font-bold'>YOUTUBE</h1>
+				<h1 className='font-bold tracking-tight text-2xl'>YOUTUBE</h1>
 			</Link>
 			<form onSubmit={handleSubmit} className='flex items-center'>
 				<input 

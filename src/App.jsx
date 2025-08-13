@@ -1,6 +1,6 @@
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Layout from "./components/Layout";
+import Layout from "./Layout";
 import Videos from "./pages/Videos";
 import VideoDetail from "./pages/VideoDetail";
 import NotFound from "./pages/NotFound";
