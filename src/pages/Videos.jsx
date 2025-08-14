@@ -22,7 +22,7 @@ export default function Videos() {
 		<section className="sec_video">
 			<h2 className="mb-5 text-lg font-bold tracking-tighter">{keyword ? `🔎 ${keyword}` : "🔥 인기 동영상"}</h2>
 			<ul className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-4">
-				{videos.map((video) => (
+				{videos.map(video => (
 					<VideoCard
 						key={video.id.videoId || video.id}
 						video={video}

@@ -1,5 +1,9 @@
-export default function RelatedVideos () {
-	return (
-		<h2>연관영상</h2>
-	)
-}
+// import { Link } from "react-router-dom";
+
+// export default function RelatedVideos({ relatedVideo }) {
+// 	return (
+// 		<li>
+// 			<Link to=""></Link>
+// 		</li>
+// 	);
+// }
